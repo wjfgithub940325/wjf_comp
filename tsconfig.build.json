@@ -1,0 +1,26 @@
+{
+  //详情访问https://www.typescriptlang.org/tsconfig#moduleResolution
+    // 控制编译出来的文件，存放位置outDir，module：esnext，选择编译之后符合什么样的标准target。
+    //babel工具可以让我们在源代码中使用未来版本的JavaScript特性，所以让不支持该特性的浏览器也能使用。
+    "compilerOptions": { 
+      "outDir": "dist",
+      "module": "esnext",
+      "target": "es5",
+      "declaration": true,//有提示，为每个js文件都生成一个.d.ts文件
+      "jsx": "react",
+      //文件查找方式
+      "moduleResolution":"Node",
+      //开启默认导入文件的方式
+      "allowSyntheticDefaultImports": true,
+    },
+    //文件属性，包含哪些文件
+    "include": [
+      "src"
+    ],
+    //不包含哪些文件
+    "exclude": [
+      "src/**/*.test.tsx",
+      "src/**/*.stories.tsx",
+      "src/setupTests.ts",
+    ]
+  }

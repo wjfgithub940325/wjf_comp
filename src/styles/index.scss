@@ -1,0 +1,43 @@
+//导入不需要加下划线，这样的目的是这些文件只能当做模块导入，不能单独使用。
+// 加下划线表示不需要编译为css文件，
+// config
+@import "variables";
+
+//layout
+@import "reboot";
+
+//mixin
+@import "mixin";
+
+// animation
+@import "animation";
+// button
+
+@import "../components/Button/style";
+
+//alert
+@import "../components/Alert/style";
+
+// menu
+@import "../components/Menu/style";
+
+//navs
+@import "../components/Tabs/style";
+
+// icon
+@import "../components/Icon/style";
+
+//input
+@import "../components/Input/style";
+
+//auto-complete
+@import "../components/AutoComplete/style";
+
+//select
+@import "../components/Select/style";
+
+//upload
+@import "../components/Upload/style";
+
+//progress
+@import "../components/Progress/style";
