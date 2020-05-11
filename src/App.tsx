@@ -6,7 +6,6 @@ import MenuItem from './components/Menu/menuItem'
 import SubMenu from './components/Menu/subMenu'
 import Transition from './components/Transition/transition'
 import Button from './components/Button/button'
-import axios from 'axios'
 library.add(fas)
 const App: React.FC = () => {
   const [ show, setShow ] = useState(false)
