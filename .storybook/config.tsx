@@ -21,12 +21,12 @@ addDecorator(withInfo)
 //inline表示直接显示信息，不需要点击show info，header隐藏
 addParameters({info: { inline: true, header: false}})
 const loaderFn = () => {
-  const allExports = [require('../src/stories/0-Welcome.stories.tsx')];
+  const allExports = [require('../src/welcome.stories.tsx')];
   const req = require.context('../src/components', true, /\.stories\.tsx$/);
   req.keys().forEach(fname => allExports.push(req(fname)));
   return allExports;
 };
 
 
-// automatically import all files ending in *.stories.js
+// automatically import all files ending in *.stories.tsx
 configure(loaderFn, module);

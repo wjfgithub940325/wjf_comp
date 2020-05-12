@@ -75,7 +75,7 @@ describe('test upload component', () => {
     fireEvent.dragOver(uploadArea)
     expect(uploadArea).toHaveClass('is-dragover')
     fireEvent.dragLeave(uploadArea)
-    expect(uploadArea).toHaveClass('is-dragover')
+    expect(uploadArea).not.toHaveClass('is-dragover')
     //https://github.com/testing-library/react-testing-library/issues/339
     //我们使用createEvent创建一个drop事件，然后mockDropEvent使用defineProperty进行自定义，
     //这个时候我们就模拟了真实的dragEvent
