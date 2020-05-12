@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wjfgithub940325/wjf_comp/static/css/main.a4e29ba5.chunk.css",
+    "main.js": "/wjfgithub940325/wjf_comp/main.c651364ecb6bd4936b84.bundle.js",
+    "main.css.map": "/wjfgithub940325/wjf_comp/static/css/main.a4e29ba5.chunk.css.map",
+    "main.js.map": "/wjfgithub940325/wjf_comp/main.c651364ecb6bd4936b84.bundle.js.map",
+    "runtime~main.js": "/wjfgithub940325/wjf_comp/runtime~main.c651364ecb6bd4936b84.bundle.js",
+    "runtime~main.js.map": "/wjfgithub940325/wjf_comp/runtime~main.c651364ecb6bd4936b84.bundle.js.map",
+    "vendors~main.css": "/wjfgithub940325/wjf_comp/static/css/vendors~main.f8f248a5.chunk.css",
+    "vendors~main.js": "/wjfgithub940325/wjf_comp/vendors~main.c651364ecb6bd4936b84.bundle.js",
+    "vendors~main.css.map": "/wjfgithub940325/wjf_comp/static/css/vendors~main.f8f248a5.chunk.css.map",
+    "vendors~main.js.map": "/wjfgithub940325/wjf_comp/vendors~main.c651364ecb6bd4936b84.bundle.js.map",
+    "iframe.html": "/wjfgithub940325/wjf_comp/iframe.html",
+    "precache-manifest.f7e044431750493cee33277af84f20d8.js": "/wjfgithub940325/wjf_comp/precache-manifest.f7e044431750493cee33277af84f20d8.js",
+    "service-worker.js": "/wjfgithub940325/wjf_comp/service-worker.js",
+    "vendors~main.c651364ecb6bd4936b84.bundle.js.LICENSE.txt": "/wjfgithub940325/wjf_comp/vendors~main.c651364ecb6bd4936b84.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.c651364ecb6bd4936b84.bundle.js",
+    "static/css/vendors~main.f8f248a5.chunk.css",
+    "vendors~main.c651364ecb6bd4936b84.bundle.js",
+    "static/css/main.a4e29ba5.chunk.css",
+    "main.c651364ecb6bd4936b84.bundle.js"
+  ]
+}
